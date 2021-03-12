@@ -27,6 +27,8 @@ from Models.SegNet import segnet
 from Models.BCDU_Net import BCDU_net_D3
 from Models.Proposed_Model import MYMODEL1,MYMODEL2,MYMODEL3,MYMODEL4,MYMODEL5,MYMODEL6
 from Models.Proposed_WO_Pyramid import MYMODEL1,MYMODEL2,MYMODEL3,MYMODEL4
+from Models.MultiResUnet import MultiResUnet
+from Models.ORED_Net import ORED_net
 
 			#####  Loss function and Metrics#########
 from Dice_Loss import dice_coef,dice_coef_loss
@@ -115,6 +117,21 @@ model.compile(optimizer=Adam, loss=dice_coef_loss, metrics=[dice_coef])
 model.fit(C2,Y2,validation_data=(C2V, Y2V),batch_size=2,
                     epochs=epochs)
 model.save_weights("UNet_Brain2_DIC.h5")
+
+model=ORED_net()
+#model.compile(optimizer=Adam, loss=dice_coef_loss, metrics=[dice_coef])
+model.compile(optimizer=Adam, loss='binary_crossentropy', metrics=[dice_coef])
+model.fit(C2,Y2,validation_data=(C2V, Y2V),batch_size=2,
+                    epochs=epochs)
+model.save_weights("ORED_Net_XRay.h5")
+
+model=MultiResUnet()
+#model.compile(optimizer=Adam, loss=dice_coef_loss, metrics=[dice_coef])
+model.compile(optimizer=Adam, loss='binary_crossentropy', metrics=[dice_coef])
+model.fit(C2,Y2,validation_data=(C2V, Y2V),batch_size=2,
+                    epochs=epochs)
+model.save_weights("MultiResUnet_XRay.h5")
+
 
 
 epochs=50
