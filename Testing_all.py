@@ -73,6 +73,21 @@ result_C=result[1]
 result_C[np.where(result_C[:,:,:,0]>Threshold)]=1
 iou,F1,Sensitivity=Evaluation_Metrics(result_C,Y2T)
 
+model=ORED_net()
+model.load_weights("ORED_Net_XRay.h5")
+result_ = model.predict(C2T,batch_size=2)
+result_[np.where(result_[:,:,:,0]>Threshold)]=1
+iou,F1,Sensitivity=Evaluation_Metrics(result_,Y2T)
+
+
+model=MultiResUnet()
+model.load_weights("MultiResUnet_XRay.h5")
+result_ = model.predict(C2T,batch_size=2)
+result_[np.where(result_[:,:,:,0]>Threshold)]=1
+iou,F1,Sensitivity=Evaluation_Metrics(result_,Y2T)
+
+
+
 model1=MYMODEL1()
 model2=MYMODEL2()
 model3=MYMODEL3()
