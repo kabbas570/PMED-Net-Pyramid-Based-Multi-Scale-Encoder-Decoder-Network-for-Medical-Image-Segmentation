@@ -31,7 +31,8 @@ from Models.SegNet import segnet
 from Models.BCDU_Net import BCDU_net_D3
 from Models.Proposed_Model import MYMODEL1,MYMODEL2,MYMODEL3,MYMODEL4,MYMODEL5,MYMODEL6
 from Models.Proposed_WO_Pyramid import MYMODEL1,MYMODEL2,MYMODEL3,MYMODEL4
-
+from Models.MultiResUnet import MultiResUnet
+from Models.ORED_Net import ORED_net
 
 Threshold=0.5
 ### Testing All Models ####
