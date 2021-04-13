@@ -29,14 +29,24 @@ A three-stage encoder-decoder network is trained independently to estimate the s
 
 # Citation Request
 If you use CED-Net in your project, please cite the following paper
+
 A. Khan, H. Kim and L. Chua, "PMED-Net: Pyramid Based Multi-Scale Encoder-Decoder Network for Medical Image Segmentation," in IEEE Access, doi: 10.1109/ACCESS.2021.3071754.
 
 @ARTICLE{9399071,
+
   author={A. {Khan} and H. {Kim} and L. {Chua}},
+  
   journal={IEEE Access}, 
+  
   title={PMED-Net: Pyramid Based Multi-Scale Encoder-Decoder Network for Medical Image Segmentation}, 
+  
   year={2021},
+  
   volume={},
+  
   number={},
+  
   pages={1-1},
+  
   doi={10.1109/ACCESS.2021.3071754}}
+  
