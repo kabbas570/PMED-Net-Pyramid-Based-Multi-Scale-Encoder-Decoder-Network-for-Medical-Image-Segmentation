@@ -14,4 +14,5 @@ A three-stage encoder-decoder network is trained independently to estimate the s
 ![image](https://user-images.githubusercontent.com/56618776/114500070-56af7700-9c62-11eb-8cb4-498b9f261c7b.png)
 
 
-
+ # Experimental outputs of the ISIC dataset for different networks. 
+![image](https://user-images.githubusercontent.com/56618776/114500339-c4f43980-9c62-11eb-840a-1006a00eb4e8.png)
