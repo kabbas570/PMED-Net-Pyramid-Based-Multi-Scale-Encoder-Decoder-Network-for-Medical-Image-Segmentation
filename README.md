@@ -16,3 +16,10 @@ A three-stage encoder-decoder network is trained independently to estimate the s
 
  ## Experimental outputs of the ISIC dataset for different networks
 ![image](https://user-images.githubusercontent.com/56618776/114500466-04228a80-9c63-11eb-9924-64aa2dd7de04.png)
+
+##  Experimental results of different networks for the Nuclei dataset
+![image](https://user-images.githubusercontent.com/56618776/114500580-43e97200-9c63-11eb-989c-6d94ddb7e756.png)
+ ## Qualitative comparison of results of segmentation for brain tumor dataset
+ ![image](https://user-images.githubusercontent.com/56618776/114500654-6e3b2f80-9c63-11eb-855d-dbd5809a0d0e.png)
+## Visual results for NIH X-ray dataset segmentation
+![image](https://user-images.githubusercontent.com/56618776/114500709-93c83900-9c63-11eb-9a5d-84f5c5e2cca1.png)
