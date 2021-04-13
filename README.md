@@ -16,6 +16,14 @@ A three-stage encoder-decoder network is trained independently to estimate the s
 
 ![image](https://user-images.githubusercontent.com/56618776/114500070-56af7700-9c62-11eb-8cb4-498b9f261c7b.png)
 
+# Ablation Studies and Model Size comparisons
+
+•	In terms of model parameters, the proposed architecture is 95.30% smaller than SegNet [25], 95.27% than U-Net [26], 92.90% than BCDU-Net [27], 91.42% than CU-Net [28], 91.11% smaller than FCN-8s [29], 84.94% than ORED-Net [30], and 79.81% smaller than MultiResUNet [31].
+
+IoU plotted as a function of number of pyramid level or number of encoder-decoder networks〖 N〗_k  , set in cascade for each dataset.
+
+![image](https://user-images.githubusercontent.com/56618776/114501769-99bf1980-9c65-11eb-9ffb-e11285771185.png)
+
 
  ## Experimental outputs of the ISIC dataset for different networks
 ![image](https://user-images.githubusercontent.com/56618776/114500466-04228a80-9c63-11eb-9924-64aa2dd7de04.png)
