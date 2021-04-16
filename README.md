@@ -38,9 +38,8 @@ IoU plotted as a function of number of pyramid level or number of encoder-decode
 # Citation Request
 If you use CED-Net in your project, please cite the following paper
 
-A. Khan, H. Kim and L. Chua, "PMED-Net: Pyramid Based Multi-Scale Encoder-Decoder Network for Medical Image Segmentation," in IEEE Access, doi: 10.1109/ACCESS.2021.3071754.
+A. Khan, H. Kim and L. Chua, "PMED-Net: Pyramid Based Multi-Scale Encoder-Decoder Network for Medical Image Segmentation," in IEEE Access, vol. 9, pp. 55988-55998, 2021, doi: 10.1109/ACCESS.2021.3071754.
 
-@ARTICLE{9399071,
 
   author={A. {Khan} and H. {Kim} and L. {Chua}},
   
@@ -50,9 +49,13 @@ A. Khan, H. Kim and L. Chua, "PMED-Net: Pyramid Based Multi-Scale Encoder-Decode
   
   year={2021},
   
-  volume={},
+  volume={9},
   
   number={},
+  
+  pages={55988-55998},
+  
+  doi={10.1109/ACCESS.2021.3071754}
   
   pages={1-1},
   
