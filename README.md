@@ -36,7 +36,7 @@ IoU plotted as a function of number of pyramid level or number of encoder-decode
 ![image](https://user-images.githubusercontent.com/56618776/114500709-93c83900-9c63-11eb-9a5d-84f5c5e2cca1.png)
 
 # Citation Request
-If you use CED-Net in your project, please cite the following paper
+If you use PMED-NET Architecture in your project, please cite the following article,
 
 A. Khan, H. Kim and L. Chua, "PMED-Net: Pyramid Based Multi-Scale Encoder-Decoder Network for Medical Image Segmentation," in IEEE Access, vol. 9, pp. 55988-55998, 2021, doi: 10.1109/ACCESS.2021.3071754.
 
